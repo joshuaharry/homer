@@ -5,6 +5,14 @@ Dotfile management with git from inside Emacs.
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Homer_British_Museum.jpg" alt="Homer Thinking" />
 </p>
 
+Installable with [straight.el](https://github.com/radian-software/straight.el) and the following snippet of code:
+
+```elisp
+(use-package homer
+  :demand t
+  :straight (homer :type git :host github :repo "joshuaharry/homer"))
+```
+
 # Motivation
 
 One useful way to track dotfiles involves keeping a [git bare repository](https://www.atlassian.com/git/tutorials/dotfiles). This Emacs package builds upon this technique to make tracking these files using Emacs as easy as possible. The workflow here is as follows:
