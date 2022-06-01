@@ -1,7 +1,7 @@
 # Homer
 Dotfile management with git from inside Emacs.
 
-<p align="center">
+<p>
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Homer_British_Museum.jpg" alt="Homer Thinking" height="200" />
 </p>
 
