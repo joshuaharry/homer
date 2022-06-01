@@ -1,8 +1,8 @@
 # Homer
 Dotfile management with git from inside Emacs.
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Homer_British_Museum.jpg" alt="Homer Thinking" />
+<p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Homer_British_Museum.jpg" alt="Homer Thinking" height="200" />
 </p>
 
 Installable with [straight.el](https://github.com/radian-software/straight.el) and the following snippet of code:
