@@ -2,7 +2,7 @@
 Dotfile management with git from inside Emacs.
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Homer_British_Museum.jpg" alt="Homer Thinking" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Homer_British_Museum.jpg" alt="Homer Thinking" width="200" height="400" />
 </p>
 
 # Motivation
