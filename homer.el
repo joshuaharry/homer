@@ -207,5 +207,10 @@ repository in your home directory, this function will likely throw an error."
      (lambda ()
        (homer--push-files commit-message)))))
 
+(defun homefix ()
+  "Open the contents of `*homer-dotfile-path*' for editing."
+  (interactive)
+  (find-file *homer-dotfile-path*))
+
 (provide 'homer)
 ;;; homer.el ends here

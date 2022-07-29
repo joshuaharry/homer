@@ -35,7 +35,7 @@ Invoking `homeinit` will create a file called `dotfiles.dots` inside the directo
 ~/.xmonad/xmonad.hs
 ```
 
-The `~` will be expanded into your home directory, just like a shell.
+The `~` will be expanded into your home directory, just like in a shell.
 
 By default, `homer` will warn you if you have entries in your dotfiles file that don't exist. You can silence the warning (and, indeed, all other non-error messages homer emits) by setting the variable `*homer-silent-output*` to `t`.
 
@@ -44,6 +44,8 @@ By default, `homer` will warn you if you have entries in your dotfiles file that
 3. Run `homepush` to commit those changes and push them to the remote repository you configured initially.
 
 On a day-to-day basis, you'll probably be running `homeadd` and `homepush` all the time; you will only invoke `homeinit` once per machine you use.
+
+4. If you need to want to adjust the dotfiles you track, run `M-x homefix`, which open the file at `*homer-dotfile-path*` for editing.
 
 # Testing
 
