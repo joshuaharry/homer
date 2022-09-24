@@ -45,7 +45,7 @@ By default, `homer` will warn you if you have entries in your dotfiles file that
 
 On a day-to-day basis, you'll probably be running `homeadd` and `homepush` all the time; you will only invoke `homeinit` once per machine you use.
 
-4. If you need to want to adjust the dotfiles you track, run `M-x homefix`, which open the file at `*homer-dotfile-path*` for editing.
+4. If you need to want to adjust the dotfiles you track, run `M-x homefix`, which opens the file at `*homer-dotfile-path*` for editing.
 
 # Testing
 
